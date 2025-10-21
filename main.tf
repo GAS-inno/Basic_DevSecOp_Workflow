@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "sctp-ce11-tfstate"
+    bucket = "saw-s3.sctp-sandbox.com"
     key    = "saw.tfstate"
     region = "us-east-1"
   }
