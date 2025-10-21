@@ -11,7 +11,7 @@ terraform {
 }
 
 resource "aws_s3_bucket" "example" {
-  bucket = "saw-bucket"
+  bucket = "saw-bucket-2"
   
   tags = {
     Name        = "My bucket"
